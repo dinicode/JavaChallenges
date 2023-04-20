@@ -189,10 +189,79 @@ public class Challenges {
         return "The Word" + Word + " is " + Word.length() + "letters long";
     }
 
+
+    public void countToTen() {
+
+//       }
+
+
+        int i = 1;
+        while (i <= 10)
+            System.out.println(i);
+        i++;
+
+
+    }
+
+    public void CountByTwo() {
+        for (int i = 2; i <= 100; i += 2) {
+            System.out.println(i);
+        }
+    }
+
+
+    public void Upto50() {
+
+        for (int i = 0; i <= 50; i += 2) {
+
+            System.out.println(i);
+        }
+    }
+
+
+    public void countFromTen() {
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+    }
+
+
+    public void zeroToHundred() {
+        for (int i = 1; i <= 100; i++)
+
+            System.out.println(i);
+    }
+
+//    public void zeroToFiftyEven() {
+//        int i = 0;
+//        while (i <= 50) {
+//
+//            if (i % 2 == 0) {
+//                System.out.println(i);
+//            }
+//            i++;
+public void zeroToFiftyEven(){
+​
+//        int i = 0;
+//        while(i <= 50){
+//
+//            //hey code, is i even
+//            if(i % 2 != 0){
+//                System.out.println(i);
+//            }
+//
+//            i++;
+//        }
+
+    for(int i=0; i <= 50; i++){
+
+        if(i % 2 != 0){
+            System.out.println(i);
+        }
+
+    }
+
 }
-
-
-
-
-
+        }
 

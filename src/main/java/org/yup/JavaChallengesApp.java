@@ -44,10 +44,13 @@ public class JavaChallengesApp {
 //
 //        System.out.println(challenges.findtheDifferenceBetweenTwoNumbers());
 
-        System.out.println(challenges.convertToUppercase());
-
-        System.out.println(challenges.changeToLowercase());
-        System.out.println(challenges.lengthOfTheWord());
+//
+//        challenges.countToTen();
+//          challenges.CountByTwo();
+//             challenges.Upto50();
+         challenges.countToTen();
+         challenges.zeroToHundred();
+        challenges.zeroToFiftyEven();
 
     }
 
